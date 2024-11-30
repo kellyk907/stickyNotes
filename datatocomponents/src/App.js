@@ -7,7 +7,7 @@ for this application, delegating rendering logic to
 presentational components. */
 class App extends Component {
   state = {
-    notes: [
+    /* an array of objects*/ notes: [
       {
         id: 0,
         title: "eat",
